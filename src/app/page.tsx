@@ -36,9 +36,9 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-5xl">
         {[
           { name: "Nigiri", key: "nigiri", img: "/sushi/nigiri.png" },
-          { name: "Uramaki", key: "uramaki", img: "/sushi/uramaki.png" },
+          { name: "Uramaki", key: "uramaki", img: "/sushi/urumaki.png" },
           { name: "Maki", key: "maki", img: "/sushi/maki.png" },
-          { name: "Otros", key: "otros", img: "/sushi/otros.png" },
+          { name: "Otros", key: "otros", img: "/sushi/otro.jpg" },
         ].map((item) => (
           <div
             key={item.key}
@@ -77,15 +77,8 @@ export default function Home() {
 
       <div className="mt-12 text-center">
         <h3 className="text-2xl text-red-700 font-semibold">
-          Total: {total} piezas 🍱
+          Total: {total} piezas
         </h3>
-        {total > 0 && (
-          <p className="text-gray-600 mt-2 italic">
-            {total < 10
-              ? "Aún tienes espacio para más sushi 😋"
-              : "¡Increíble! Has comido un festín digno de un maestro japonés 🎌"}
-          </p>
-        )}
       </div>
     </div>
   );
