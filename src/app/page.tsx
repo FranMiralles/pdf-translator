@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-white to-red-100 flex flex-col items-center justify-center p-10">
       <h1 className="text-5xl font-bold mb-6 text-red-700 tracking-wide drop-shadow-sm">
-        🍣 Contador de Sushi
+        Contador de Sushi
       </h1>
       <p className="text-gray-700 mb-10 text-lg text-center">
         ¿Cuántas piezas de sushi has disfrutado hoy? 🇯🇵✨
