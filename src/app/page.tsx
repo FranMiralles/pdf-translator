@@ -73,13 +73,6 @@ export default function Home() {
         <h3 className="text-2xl text-red-700 font-semibold">
           Total: {total} piezas 🍱
         </h3>
-        {total > 0 && (
-          <p className="text-gray-600 mt-2 italic">
-            {total < 10
-              ? "Aún tienes espacio para más sushi 😋"
-              : "¡Increíble! Has comido un festín digno de un maestro japonés 🎌"}
-          </p>
-        )}
       </div>
     </div>
   );
