@@ -35,7 +35,7 @@ export default function Home() {
         🍣 Contador de Sushi
       </h1>
       <p className="text-gray-700 mb-10 text-lg text-center">
-        ¡Cuántas piezas de sushi has disfrutado hoy? 🇯🇵✨
+        ¿Cuántas piezas de sushi has disfrutado hoy? 🇯🇵✨
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-5xl">
